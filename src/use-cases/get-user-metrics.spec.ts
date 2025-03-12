@@ -5,7 +5,7 @@ import { GetUserMetricsUseCase } from './get-user-metrics'
 let checkInsRepository: InMemoryCheckInsRepository
 let sut: GetUserMetricsUseCase
 
-describe('Get user metrics Use Case', () => {
+describe('Get User Metrics Use Case', () => {
   beforeEach(async () => {
     checkInsRepository = new InMemoryCheckInsRepository()
     sut = new GetUserMetricsUseCase(checkInsRepository)

@@ -5,7 +5,7 @@ import { FetchUserCheckInsHistoryUseCase } from './fetch-user-check-ins-history'
 let checkInsRepository: InMemoryCheckInsRepository
 let sut: FetchUserCheckInsHistoryUseCase
 
-describe('Fetch user check-ins history Use Case', () => {
+describe('Fetch User Check-ins History Use Case', () => {
   beforeEach(async () => {
     checkInsRepository = new InMemoryCheckInsRepository()
     sut = new FetchUserCheckInsHistoryUseCase(checkInsRepository)
